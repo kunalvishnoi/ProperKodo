@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>ProperKodo</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <fieldset class="scheduler-border">
+            <legend class="scheduler-border"><img src="Logo.png" width="100px" height="100px"></legend>
+            <div id="dis" style="display: none;">
+                <div class="row alignment">
+                    <div class="col-lg-3 col-sm-3 ">
+                        <h2>ABOUT</h2>
+                        <br>
+                    </div>
+                </div>
+                <div class="row alignment">
+                    <div class="col-lg-2 col-sm-2 ">
+                        <h3 class="margin-data">NAME:</h3>
+                        <h3 class="margin-data">USERNAME:</h3>
+                        <h3 class="margin-data">LOCATION:</h3>
+                        <h3 class="margin-data">BIO:</h3>
+                    </div>
+                    <div class="col-lg-4 col-sm-4 ">
+                        <h3 class=" margin-data" id="name"></h3>
+                        <h3 class=" margin-data"  id="user"></h3>
+                        <h3 class=" margin-data"  id="location"></h3>
+                        <h3 class="  margin-data"  id="bio"></h3>
+                        
+                    </div>
+                    
+                    <div  class="col-lg-3 col-md-offset-2 ">
+                        <div align="center">
+                            <img src=""  id="image" class="img-responsive img-circle" alt="">
+                            <h3 id="name2"></h3>
+                            <h3 class="name-up" id="loc"></h3>
+                        </div>
+                        
+                    </div>
+                </div>
+                <br><br><br>
+                <br><br><br><br><br>
+                <br><br>
+            </div>
+        </fieldset>
+        <p>Type your git username in the text field: </p>
+        <input type="text" id="username">
+        <button onclick="load()">Submit</button>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>
