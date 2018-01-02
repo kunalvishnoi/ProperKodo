@@ -19,7 +19,6 @@ border-bottom:none;
 }
 fieldset.scheduler-border {
 border: 5px solid  ;
-
 border-color:  #00FF7F;
 }
 .alignment{
@@ -45,7 +44,6 @@ margin-top: -2px;
 margin-top: -2px;
 }
 .name-up-2{
-
 }
 .pie{
 margin-left: 2%;
@@ -70,10 +68,122 @@ max-height: 350px;
 }
 }
 hr{
-  color: #00FF7F;
-  border-color: #00FF7F;
-  background-color: #00FF7F;
+color: #00FF7F;
+border-color: #00FF7F;
+background-color: #00FF7F;
 }
 .heading{
+color: #00FF7F;
+}
+/* **************  For home page *************  */
+.navbar {
+margin: 0;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-color: transparent;
+height: 10rem;
+
+border-radius: 0;
+border: 0;
+}
+.head{
+  font-size: 50px;
+}
+.navbar-brand {
+font-size: 5rem;
+line-height: 5rem;
+height: rem;
+position: absolute;
+top: 0.8rem;
+left: 9rem;
+color: #fff !important;
+
+}
+@media only screen and (max-width:426px) {
+.navbar-brand {
+left: 2rem;
+}
+.small-image{
+width: 200px;
+}
+.head{
+  font-size: 40px;
+}
+}
+.navbar-nav li a {
+line-height: 3rem;
+font-size: 2rem;
+color: #fff;
+transition: color 0.3s, background 0.3s;
+}
+.navbar-nav li a:hover {
+background: transparent;
+border-radius: 5px;
+}
+.margin-left {
+margin-left: -10px !important;
+}
+.navbar-nav li {
+margin: 0 10px;
+}
+.navbar-collapse {
+margin-top: 15px;
+text-align: center;
+}
+.navbar-collapse a {
+margin-right: 0 !important;
+}
+.demo-link {
+border: 2px solid #00FF7F;
+border-radius: 8px;
+background-color:#00FF7F;
+color: black !important;
+}
+.demo-link:hover {
+background: #00FF7F !important;
+}
+.margin-head-homepage{
+margin-top: 10px;
+margin-left: 20px;
+}
+.icon-bar {
+background-color: #fff;
+
+}
+.head-home{
   color: #00FF7F;
 }
+.head{
+  font-size: 50px;
+}
+.jumbotron1{
+  background-color: #00FF7F;
+  padding-bottom: 10px;
+}
+.inner-form{
+  color: black !important;
+}
+.form-left-text{
+  color: black;
+  opacity: 0.7;
+}
+#jumbo{
+  padding-top: 10px;
+    background-color: rgb(6, 23, 25 );
+}
+.demo-link:visited{
+  background-color:  #00FF7F!important;
+}
+.demo-link:active{
+  background-color:  #00FF7F !important;
+}
+.demo-link:focus{
+  background-color:  #00FF7F !important;
+}
+.submit-button{
+  float: right;
+  background-color:  #00FF7F;
+}
+
