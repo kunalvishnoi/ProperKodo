@@ -63,9 +63,6 @@ background-color: rgb(6, 23, 25 );
 background-color: #00FF7F;
 }
 @media only screen and (max-width:426px)   {
-.my-overflow{
-max-height: 350px;
-}
 }
 hr{
 color: #00FF7F;
@@ -188,19 +185,36 @@ background-color:  #00FF7F !important;
 float: right;
 background-color:  #00FF7F;
 }
-
 @media (min-width: 48em) {
-  .container1 {
-    max-width: 46rem;
-  }
+.container1 {
+max-width: 46rem;
+}
 }
 .container1-narrow > hr {
-  margin: 2rem 0;
+margin: 2rem 0;
 }
 .log{
-  margin-top: 3%;
+margin-top: 3%;
 }
 .submit-button-log{
 float: right;
 background-color:  rgb(6, 23, 25 );
 }
+@media print {
+.my-overflow{
+    overflow-y: auto;
+    max-height: max-content;
+}
+
+}
+.submit-button{
+float: right;
+background-color:  #00FF7F;
+margin-right: 20px;
+}
+.inp{
+  background-color: transparent;
+  border:none;
+  outline: 0;
+}
+

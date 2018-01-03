@@ -22,3 +22,7 @@ document.getElementById("image").style.height="50%";
 request.open('GET', url, true);
 request.send();
 }
+document.getElementById("print").addEventListener("click", one);
+function one() {
+  print();
+    }
